@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+l1 = []
+l1.append(a*b*c)
+l1.append(a*(b+c))
+l1.append(a+(b*c))
+l1.append((a+b)*c)
+l1.append(a+b+c)
+print(max(l1))
